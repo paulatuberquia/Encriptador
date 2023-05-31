@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Courgette&family=Dancing+Script:wght@400;600&family=Dosis:wght@200;300&family=Inconsolata:wght@200&family=Libre+Baskerville:ital@0;1&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;1,100;1,500;1,600&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <main>
+        <h2 class="Info">Solo debe de ingresar letras minusculas sin acentuación.</h2>
+        <div class="ingreso">
+            <label for="mensaje" class="texto">Ingresa el texto aqui</label>
+            <textarea cols="83.5" rows="8" id="mensajeIngreso" class="area"></textarea>
+        </div>
+        
+        <div class="botones">
+            <button class="bt" id="Encriptar">Encriptar texto</button>
+            <button class="bt" id="Desencriptar">Desencriptar texto</button>
+            <button class="bt" id="Copiar">Copiar texto</button>
+        </div>
+
+       <div class="mensaje">
+        <label for="mensaje" class="texto">Aqui aparece tu mensaje</label>
+        <textarea cols="83.5" rows="8" id="mensajeSalida" class="area"></textarea>
+       </div> 
+    </main>
+</body>
+
+<script src="scrip.js"></script>
+</html>

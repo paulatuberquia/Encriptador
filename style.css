@@ -1,0 +1,85 @@
+body{
+    font-family: 'Caveat', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 20px;
+    background: url(Img/fondo-textura-marmol-rosa-sucio.jpg);
+}
+
+
+.Info{
+    width: 940px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    border: 6px pink solid;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: pink;
+    font-style: italic;
+
+}
+
+
+.ingreso{
+    width: 940px;
+    padding: 50px;
+    margin: auto;
+}
+
+.botones{
+        width: 940px;
+        margin: 0 auto;
+        padding: 50px;
+}
+
+.bt{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 10px 10px;
+    box-sizing: border-box; 
+    border: 2px pink solid;
+    border-radius: 10px;
+    background-color: rgb(217, 184, 190);
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.bt:hover{
+    background-color: pink;
+    transform: scale(1.2);
+    font-weight: bold;
+
+}
+
+.texto{
+    margin: 5px;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+
+}
+.mensaje{
+    width: 940px;
+    padding: 50px;
+    margin: auto;
+}
+
+.area{
+    font-size: 20px;
+    color: #ffffff;
+    background:linear-gradient(pink, #ffffff);
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
